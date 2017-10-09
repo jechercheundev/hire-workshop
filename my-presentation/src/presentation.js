@@ -146,8 +146,8 @@ export default class Presentation extends React.Component {
 				</Slide>
 
 				<Slide bgColor="primary" textColor="secondary">
-					<Heading size={1} caps fit>Sourcing</Heading>
-					<Heading textColor="tertiary" size={3} caps>Sourcer n'est pas recruter</Heading>
+					<Heading size={1} textColor="secondary" caps fit>Sourcing</Heading>
+					<Heading textColor="quartenary" size={3} fit caps>Sourcer n'est pas recruter</Heading>
 					<Notes>
 						Le sourcing ne début pas forcément à l'analyse d'un besoin
 						et prend fin lorsque le candidat accepte de rentrer
@@ -163,43 +163,43 @@ export default class Presentation extends React.Component {
           </BlockQuote>
         </Slide>
 
-				<Slide>
-					<Heading size={2} caps fit>Customiser ses messages est indispensable</Heading>
+				<Slide bgColor="secondary" textColor="primary">
+					<Heading textColor="primary" size={2} caps fit>Customiser ses messages est indispensable</Heading>
 					<Appear>
-						<Text>À partir de 4 variables, un message est perçu comme personnalisé</Text>
+						<Text textColor="tertiary" fit>À partir de 4 variables, un message est perçu comme personnalisé</Text>
 					</Appear>
 				</Slide>
 
-				<Slide>
-					<Heading>Une phrase d'accroche par candidats</Heading>
+				<Slide bgColor="secondary">
+					<Heading textColor="primary" >Une phrase d'accroche par candidat</Heading>
+				</Slide>
+
+				<Slide bgColor="secondary">
+					<Heading textColor="primary"  size={2} caps fit>Relancer n'est pas une option</Heading>
+				</Slide>
+
+				<Slide bgColor="secondary">
+					<Heading textColor="primary" size={1} caps fit>Un développeur reçoit 10 solliciations email par semaine</Heading>
 				</Slide>
 
 				<Slide>
-					<Heading size={2} caps fit>Relancer n'est pas une option</Heading>
-				</Slide>
-
-				<Slide>
-					<Heading size={1} caps fit>Un développeur reçoit 10 solliciations email par semaine</Heading>
-				</Slide>
-
-				<Slide>
-					<Heading caps fit>JOB</Heading>
-					<Heading caps fit>Money</Heading>
-					<Heading caps fit>Location</Heading>
+					<Heading textColor="secondary" size={3} caps >JOB</Heading>
+					<Heading textColor="secondary" size={3} caps >Money</Heading>
+					<Heading textColor="secondary" size={3} caps >Location</Heading>
 				</Slide>
 
 
 				<Slide bgColor="primary" textColor="secondary">
-					<Heading size={1} caps fit>Marque employeur</Heading>
-					<Heading textColor="tertiary" size={3} caps>Pourquoi travailler chez vous ?</Heading>
+					<Heading textColor="secondary" size={1} caps fit>Marque employeur</Heading>
+					<Heading textColor="quartenary" size={5} caps>Pourquoi travailler chez vous ?</Heading>
 					<Notes>
 						Tout le contenu la communication que l'on peut produire et diffuser
 						pour donner envie de travailler chez vous
 					</Notes>
 				</Slide>
 
-				<Slide>
-					<Heading caps fit size={1}>Vision</Heading>
+				<Slide bgColor="secondary">
+					<Heading textColor="primary"  caps fit size={1}>Vision</Heading>
 					<Notes>
 						Les gens sont motivés par l'impact qu'ils vont pouvoir avoir
 						au sein de l'entreprise,
@@ -208,64 +208,53 @@ export default class Presentation extends React.Component {
 					</Notes>
 				</Slide>
 
-				<Slide>
-					<Heading caps fit size={1}>Core Values</Heading>
-					<Text>Are more than posters hanging on the walls</Text>
+				<Slide bgColor="secondary">
+					<Heading textColor="primary" caps fit size={1}>Core Values</Heading>
+					<Text textColor="tertiary">Are more than posters hanging on the walls</Text>
 				</Slide>
 
-				<Slide>
-					<Heading caps fit size={2}>Ambassadorisation</Heading>
-					<Text>Que disent vos collaborateurs de vous ?</Text>
+				<Slide bgColor="secondary">
+					<Heading textColor="primary" caps fit size={2}>Ambassadorisation</Heading>
+					<Text textColor="tertiary">Que disent vos collaborateurs de vous ?</Text>
 				</Slide>
 
-				<Slide>
-					<Heading caps fit>Culture</Heading>
+				<Slide bgColor="secondary">
+					<Heading textColor="primary" caps fit>Culture</Heading>
 					<Notes>
 						Le culture fit n'est pas un mystère.
 					</Notes>
 				</Slide>
 
-				<Slide>
-					<Text>Quels sont les valeurs de cette entreprise</Text>
-					<Text>A quoi sont attachés les gens qui travaillent ici</Text>
-					<Text>Comment je vais m'intégrer dans cette espace de travail</Text>
-					<Text></Text>
+				<Slide bgColor="tertiary">
+					<Text textColor="quartenary">Quels sont les valeurs de cette entreprise ?</Text>
+					<Text textColor="quartenary">A quoi sont attachés les gens qui travaillent ici ?</Text>
+					<Text textColor="quartenary">Comment je vais m'intégrer dans cette espace de travail ?</Text>
+
 				</Slide>
 
 				<Slide>
-					<Heading caps fit size={1}>Diversité</Heading>
-					<Notes>Quel type de personnes</Notes>
+					<Heading textColor="primary"  caps fit size={1}>Diversité</Heading>
+					<Notes>
+						Des jeunes des vieux
+						Des hommes des femmes
+					</Notes>
 				</Slide>
 
 				<Slide>
-					<Heading caps fit>Télétravail</Heading>
+					<Heading textColor="primary" caps fit>Télétravail</Heading>
 				</Slide>
 
+				<Slide bgColor="primary">
+					<Heading textColor="secondary" caps fit>Inbound Recruiting</Heading>
+				</Slide>
 
-        <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
-          <Heading size={6} textColor="secondary" caps>Standard List</Heading>
-          <List>
-            <ListItem>Item 1</ListItem>
-            <ListItem>Item 2</ListItem>
-            <ListItem>Item 3</ListItem>
-            <ListItem>Item 4</ListItem>
-          </List>
-        </Slide>
-        <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
-          <BlockQuote>
-            <Quote>Example Quote</Quote>
-            <Cite>Author</Cite>
-          </BlockQuote>
-        </Slide>
-        <Slide transition={["fade"]} bgColor="tertiary">
-          <Heading size={6} textColor="primary" caps>Typography</Heading>
-          <Heading size={1} textColor="secondary">Heading 1</Heading>
-          <Heading size={2} textColor="secondary">Heading 2</Heading>
-          <Heading size={3} textColor="secondary">Heading 3</Heading>
-          <Heading size={4} textColor="secondary">Heading 4</Heading>
-          <Heading size={5} textColor="secondary">Heading 5</Heading>
-          <Text size={6} textColor="secondary">Standard text</Text>
-        </Slide>
+				<Slide>
+
+					<Image
+						src={ W3DLogoWhite }
+						width={'80%'}
+						/>
+				</Slide>
       </Deck>
     );
   }
